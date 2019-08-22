@@ -3,7 +3,7 @@ const winston=require('winston');
 const config=require('config');
 
 module.exports=function(){
-    const db=config.get('db');
-    mongoose.connect(db)
-        .then(()=>console.log(`Connected to the ${db}`));
+
+    mongoose.connect('mongodb+srv://root:root@onlineorganicstore-fpv8x.mongodb.net/ProductDB?retryWrites=true&w=majority',{ useNewUrlParser: true })
+        .then(()=>console.log(`Connected to the `));
 }
