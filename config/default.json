@@ -1,0 +1,4 @@
+{
+    "jwtPrivateToken":"",
+    "db":"mongodb+srv://root:root@onlineorganicstore-fpv8x.mongodb.net/ProductDB?retryWrites=true&w=majority"
+}
